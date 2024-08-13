@@ -1,5 +1,5 @@
 # lora-tradeoffs
 
-Information and artifacts for "LoRA Learns Less and Forgets Less" (TMLR, 2024).
+Information and model checkpoints for "LoRA Learns Less and Forgets Less" (TMLR, 2024).
 
-08/12: stay tuned for links soon to be uploaded!
+08/12: Links to checkpoints will soon be uploaded here!
