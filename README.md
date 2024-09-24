@@ -16,6 +16,9 @@ Model checkpoints and LoRA adapters can be found here: [https://huggingface.co/L
 ----
 
 5/15/2024 - v1 of the paper shared on arXiv
+
 8/13/2024 - Paper [accepted to TMLR](https://openreview.net/forum?id=aloEru2qCG)
+
 9/23/2024 - arXiv v2 updated (same as TMLR camera ready version)
+
 9/24/2024 - Model checkpoints uploaded to HuggingFace (WIP)
