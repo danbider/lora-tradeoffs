@@ -1,6 +1,6 @@
 # LoRA Learns Less and Forgets Less
 
-This minimal repo contains information for the paper ["LoRA Learns Less and Forgets Less"](https://arxiv.org/abs/2405.09673) (Biderman et al. TMLR, 2024).
+This minimal repo contains information about the paper ["LoRA Learns Less and Forgets Less"](https://arxiv.org/abs/2405.09673) (Biderman et al. TMLR, 2024).
 
 
 # Abstract
@@ -19,7 +19,7 @@ perturbations with a rank that is 10-100× greater than typical LoRA configurati
 explaining some of the reported gaps. We conclude by proposing best practices for finetuning
 with LoRA.
 
-Model checkpoints and LoRA adapters can be found on HuggingFace here: [LoRA-TMLR-2024](https://huggingface.co/LoRA-TMLR-2024)
+Model checkpoints and LoRA adapters can be found on HuggingFace here: [LoRA-TMLR-2024](https://huggingface.co/LoRA-TMLR-2024). This work was done in collaboration with Databricks Mosaic AI Research.
 
 
 | Setting | Dataset | HuggingFace Collection |
