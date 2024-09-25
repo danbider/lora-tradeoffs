@@ -8,9 +8,12 @@ Model checkpoints and LoRA adapters can be found here: [https://huggingface.co/L
 | Setting | Dataset | Link |
 | --------| ------| ------ |
 | Continued Pretraining - Code | StarCoder-Python| [LoRA-TMLR-2024/continued-pretraining-code-starcoder-python](https://huggingface.co/collections/LoRA-TMLR-2024/continued-pretraining-code-starcoder-python-66f22ce3b26f416f21f58142) |
-| Continued Pretraing - Math | OpenWebMath | TBD |
-| Instruction Finetuning - Code | Magicoder-Evol-Instruct-110K| [LoRA-TMLR-2024/instruction-finetuning-code-magicoder-evol-instruct-110k](https://huggingface.co/collections/LoRA-TMLR-2024/instruction-finetuning-code-magicoder-evol-instruct-110k-66f224a800152f31e4942a3b) |
-| Instruction Finetuning - Math | MetaMathQA | TBD |
+| Continued Pretraing - Math | [OpenWebMath](https://huggingface.co/datasets/open-web-math/open-web-math) | TBD |
+| Instruction Finetuning - Code | [Magicoder-Evol-Instruct-110K](https://huggingface.co/datasets/ise-uiuc/Magicoder-Evol-Instruct-110K)| [LoRA-TMLR-2024/instruction-finetuning-code-magicoder-evol-instruct-110k](https://huggingface.co/collections/LoRA-TMLR-2024/instruction-finetuning-code-magicoder-evol-instruct-110k-66f224a800152f31e4942a3b) |
+| Instruction Finetuning - Math | [MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA) | TBD |
+
+All training was done using the Databricks MosaicML
+[composer](https://github.com/mosaicml/composer), [streaming](https://github.com/mosaicml/streaming), and [llm-foundry](https://github.com/mosaicml/llm-foundry) repositories, as well as the HuggingFace peft library
 
 
 ----
@@ -26,9 +29,9 @@ Model checkpoints and LoRA adapters can be found here: [https://huggingface.co/L
 -----
 
 
-In all four scenarios below, we use the Llama-2-7B base model meta-llama/Llama-2-7b-hf13. For
-the CPT runs, we use the meta-llama/Llama-2-7b-hf tokenizer, while for the IFT runs we use the
-meta-llama/Llama-2-7b-chat-hf tokenizer.14
+In all four scenarios below, we use the Llama-2-7B base model [meta-llama/Llama-2-7b-hf](https://huggingface.co/meta-llama/Llama-2-7b-hf). For
+the CPT runs, we use the [meta-llama/Llama-2-7b-hf](https://huggingface.co/meta-llama/Llama-2-7b-hf) tokenizer, while for the IFT runs we use the
+[meta-llama/Llama-2-7b-chat-hf](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf) tokenizer.
 
 ### Code CPT
 
