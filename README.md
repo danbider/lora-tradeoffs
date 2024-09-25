@@ -29,7 +29,7 @@ We trained [Llama-2-7B](https://huggingface.co/meta-llama/Llama-2-7b-hf) using f
 | Continued Pretraining - Code | [StarCoder-Python](https://huggingface.co/datasets/bigcode/starcoderdata) | [LoRA-TMLR-2024/continued-pretraining-code-starcoder-python](https://huggingface.co/collections/LoRA-TMLR-2024/continued-pretraining-code-starcoder-python-66f22ce3b26f416f21f58142) |
 | Continued Pretraing - Math | [OpenWebMath](https://huggingface.co/datasets/open-web-math/open-web-math) | TBD |
 | Instruction Finetuning - Code | [Magicoder-Evol-Instruct-110K](https://huggingface.co/datasets/ise-uiuc/Magicoder-Evol-Instruct-110K)| [LoRA-TMLR-2024/instruction-finetuning-code-magicoder-evol-instruct-110k](https://huggingface.co/collections/LoRA-TMLR-2024/instruction-finetuning-code-magicoder-evol-instruct-110k-66f224a800152f31e4942a3b) |
-| Instruction Finetuning - Math | [MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA) | TBD |
+| Instruction Finetuning - Math | [MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA) | [LoRA-TMLR-2024/instruction-finetuning-math-metamathqa](https://huggingface.co/collections/LoRA-TMLR-2024/instruction-finetuning-math-metamathqa-66f31cc40fda6b6b938d33e2) |
 
 All training was done using the Databricks MosaicML
 [composer](https://github.com/mosaicml/composer), [streaming](https://github.com/mosaicml/streaming), and [llm-foundry](https://github.com/mosaicml/llm-foundry) repositories, as well as the HuggingFace [peft](https://huggingface.co/docs/peft/en/index) library.
