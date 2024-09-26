@@ -19,9 +19,13 @@ perturbations with a rank that is 10-100× greater than typical LoRA configurati
 explaining some of the reported gaps. We conclude by proposing best practices for finetuning
 with LoRA.
 
-![Fig 1 - Learning](assets/fig1_learning.png)
+<p align="center">
+<img src="assets/fig1_learning.png" alt="Fig 1 - Learning" width="750">
+</p>
 
-![Fig 2 - Forgetting](assets/fig2_forgetting.png)
+<p align="center">
+<img src="assets/fig2_forgetting.png" alt="Fig 2 - Forgetting" width="750">
+
 
 # Model Checkpoints and LoRA Adapters
 
