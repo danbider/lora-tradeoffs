@@ -19,6 +19,10 @@ perturbations with a rank that is 10-100× greater than typical LoRA configurati
 explaining some of the reported gaps. We conclude by proposing best practices for finetuning
 with LoRA.
 
+![Fig 1 - Learning](assets/fig1_learning.png)
+
+![Fig 2 - Forgetting](assets/fig2_forgetting.png)
+
 # Model Checkpoints and LoRA Adapters
 
 We trained [Llama-2-7B](https://huggingface.co/meta-llama/Llama-2-7b-hf) using full finetuning and LoRA. Model checkpoints and LoRA adapters can be found on HuggingFace here: [LoRA-TMLR-2024](https://huggingface.co/LoRA-TMLR-2024). This work was done in collaboration with Databricks Mosaic AI Research.
