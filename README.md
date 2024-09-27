@@ -29,7 +29,7 @@ with LoRA.
 
 # Model Checkpoints and LoRA Adapters
 
-We trained [Llama-2-7B](https://huggingface.co/meta-llama/Llama-2-7b-hf) using full finetuning and LoRA. Model checkpoints and LoRA adapters can be found on HuggingFace here: [LoRA-TMLR-2024](https://huggingface.co/LoRA-TMLR-2024). This work was done in collaboration with Databricks Mosaic AI Research.
+We trained [Llama-2-7B](https://huggingface.co/meta-llama/Llama-2-7b-hf) using full finetuning and LoRA. Model checkpoints and LoRA adapters can be found on HuggingFace here: [LoRA-TMLR-2024](https://huggingface.co/LoRA-TMLR-2024). This work was done in collaboration with [Databricks Mosaic AI Research](https://www.databricks.com/research/mosaic).
 
 
 | Setting | Dataset | HuggingFace Collection |
@@ -110,7 +110,7 @@ from Code Alpaca (Chaudhary, 2023).
 |------------------------------|-----------------------------------------------------------------------------------------|
 | max_seq_len                  | 4096                                                                                    |
 | optimizer                    | decoupled_lionw (betas=[0.9, 0.95])                                                     |
-| learning_rate                | 2e-4 for rank r = 16, 64 and 1e-4 for r = 256 α = 2r = 512 (due to instabilities/loss spikes at 2e-4) |
+| learning_rate                | 5e-5 for full finetuning; 2e-4 for rank r = 16, 64 and 1e-4 for r = 256 α = 2r = 512 (due to instabilities/loss spikes at 2e-4) |
 | scheduler                    | cosine_with_warmup (alpha_f=0.01, t_warmup=0.1dur)                                      |
 | weight_decay                 | 0                                                                                       |
 | precision                    | amp_bf16                                                                                |
