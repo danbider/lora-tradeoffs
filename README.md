@@ -119,6 +119,16 @@ from Code Alpaca (Chaudhary, 2023).
 | gradient_clipping            | norm (threshold=1)                                                                      |
 | num_gpus                     | 32                                                                                      |
 
+Each model was finetuned separately for 1, 2, 4, 8 and 16 epochs.
+
+| Epoch    | Number of Batches | Estimated Tokens |   
+| -------- | ---------- | ----------------|
+| 1        | 193        | 72,970,000      |
+| 2        | 386        | 145,940,000     |
+| 4        | 772        | 291,880,000     |
+| 8        | 1544       | 583,760,000     |
+| 16       | 3088       | 1,167,520,000   |
+
 ## Math IFT (MetaMathQA)
 
 [MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA) (Yu et al., 2023) This dataset was built by bootstrapping mathematical
@@ -138,6 +148,15 @@ roughly 103M tokens.
 | device_train_microbatch_size | 24                                                                                      |
 | gradient_clipping            | norm (threshold=1)                                                                      |
 | num_gpus                     | 32                                                                                      |
-```
 
+Each model was finetuned separately for 1, 2, 4, 8 and 16 epochs.
+
+| Epoch    | Estimated Tokens |   
+| -------- | ----------------|
+| 1        |  103,000,000  |
+| 2        | 206,000,000   |
+| 4        | 412,000,000   |
+| 8        | 824,000,000   |
+| 16       | 1,648,000,000 |
+```
 
