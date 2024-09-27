@@ -87,6 +87,8 @@ subset and sub-sampled it to 20B tokens.
 | gradient_clipping            | norm (threshold=1)                                                                      |
 | num_gpus                     | 32                                                                                      |
 
+We trained models for 0.25B, 0.5B, 1B, 2B, 4B, 8B, 16B and 20B tokens. These checkpoints can be found for each LoRA and full finetuning setting in the HuggingFace model branches.
+
 ## Math CPT (OpenWebMath)
 
 [OpenWebMath](https://huggingface.co/datasets/open-web-math/open-web-math) (Paster et al., 2023) - This dataset contains 14.7B tokens derived from mathematical web pages from Common Crawl, correctly formatted to preserve mathematical content such as LaTeX equations. To match with the StarCoder-Python dataset, we trained on up to 20B tokens, repeating tokens beyond the first 14.7B. An analysis of this dataset shows that it contains a considerable amount of full English sentences.
@@ -103,6 +105,9 @@ subset and sub-sampled it to 20B tokens.
 | device_train_microbatch_size | 6                                                                                       |
 | gradient_clipping            | norm (threshold=1)                                                                      |
 | num_gpus                     | 32                                                                                      |
+
+We trained models for 0.25B, 0.5B, 1B, 2B, 4B, 8B, 16B and 20B tokens. These checkpoints can be found for each LoRA and full finetuning setting in the HuggingFace model branches.
+
 
 ## Code IFT (Magicoder-Evol-Instruct-110K)
 
@@ -123,7 +128,8 @@ from Code Alpaca (Chaudhary, 2023).
 | gradient_clipping            | norm (threshold=1)                                                                      |
 | num_gpus                     | 32                                                                                      |
 
-Each model was finetuned separately for 1, 2, 4, 8 and 16 epochs.
+Each model was finetuned separately for 1, 2, 4, 8 and 16 epochs. These checkpoints are available as well by using the branches associated with each model.
+
 
 | Epoch    | Number of Batches | Estimated Tokens |   
 | -------- | ---------- | ----------------|
@@ -153,7 +159,8 @@ roughly 103M tokens.
 | gradient_clipping            | norm (threshold=1)                                                                      |
 | num_gpus                     | 32                                                                                      |
 
-Each model was finetuned separately for 1, 2, 4, 8 and 16 epochs.
+Each model was finetuned separately for 1, 2, 4, 8 and 16 epochs. These checkpoints are available as well by using the branches associated with each model.
+
 
 | Epoch    | Estimated Tokens |   
 | -------- | ----------------|
