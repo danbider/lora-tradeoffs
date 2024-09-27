@@ -29,13 +29,15 @@ with LoRA.
 
 # Model Checkpoints and LoRA Adapters
 
-We trained [Llama-2-7B](https://huggingface.co/meta-llama/Llama-2-7b-hf) using full finetuning and LoRA. Model checkpoints and LoRA adapters can be found on HuggingFace here: [LoRA-TMLR-2024](https://huggingface.co/LoRA-TMLR-2024). This work was done in collaboration with [Databricks Mosaic AI Research](https://www.databricks.com/research/mosaic).
+We trained [Llama-2-7B](https://huggingface.co/meta-llama/Llama-2-7b-hf) using full finetuning and LoRA. Model checkpoints and LoRA adapters can be found on HuggingFace here: [LoRA-TMLR-2024](https://huggingface.co/LoRA-TMLR-2024). Intermediate checkpoints are available as well by using the branches associated with each model.
+
+This work was done in collaboration with [Databricks Mosaic AI Research](https://www.databricks.com/research/mosaic).
 
 
 | Setting | Dataset | HuggingFace Collection |
 | --------| ------| ------ |
 | Continued Pretraining - Code | [StarCoder-Python](https://huggingface.co/datasets/bigcode/starcoderdata) | [LoRA-TMLR-2024/continued-pretraining-code-starcoder-python](https://huggingface.co/collections/LoRA-TMLR-2024/continued-pretraining-code-starcoder-python-66f22ce3b26f416f21f58142) |
-| Continued Pretraing - Math | [OpenWebMath](https://huggingface.co/datasets/open-web-math/open-web-math) | TBD |
+| Continued Pretraing - Math | [OpenWebMath](https://huggingface.co/datasets/open-web-math/open-web-math) | [LoRA-TMLR-2024/continued-pretraining-math-openwebmath](https://huggingface.co/collections/LoRA-TMLR-2024/continued-pretraining-math-openwebmath-66f31d12f55fb27de05b2e3f) |
 | Instruction Finetuning - Code | [Magicoder-Evol-Instruct-110K](https://huggingface.co/datasets/ise-uiuc/Magicoder-Evol-Instruct-110K)| [LoRA-TMLR-2024/instruction-finetuning-code-magicoder-evol-instruct-110k](https://huggingface.co/collections/LoRA-TMLR-2024/instruction-finetuning-code-magicoder-evol-instruct-110k-66f224a800152f31e4942a3b) |
 | Instruction Finetuning - Math | [MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA) | [LoRA-TMLR-2024/instruction-finetuning-math-metamathqa](https://huggingface.co/collections/LoRA-TMLR-2024/instruction-finetuning-math-metamathqa-66f31cc40fda6b6b938d33e2) |
 
@@ -57,6 +59,8 @@ All training was done using the Databricks MosaicML
 9/23/2024 - arXiv v2 updated (same as TMLR camera ready version)
 
 9/24/2024 - Model checkpoints uploaded to HuggingFace (WIP)
+
+9/26/2024 - All model checkpoints (including intermediate checkpoints) have been uploaded to HuggingFace
 
 # Training Details
 
