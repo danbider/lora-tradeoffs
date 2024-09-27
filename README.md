@@ -44,9 +44,20 @@ This work was done in collaboration with [Databricks Mosaic AI Research](https:/
 All training was done using the Databricks MosaicML
 [composer](https://github.com/mosaicml/composer), [streaming](https://github.com/mosaicml/streaming), and [llm-foundry](https://github.com/mosaicml/llm-foundry) repositories, as well as the HuggingFace [peft](https://huggingface.co/docs/peft/en/index) library.
 
+# Citation
 
-
-
+```
+@article{
+biderman2024lora,
+title={Lo{RA} Learns Less and Forgets Less},
+author={Dan Biderman and Jacob Portes and Jose Javier Gonzalez Ortiz and Mansheej Paul and Philip Greengard and Connor Jennings and Daniel King and Sam Havens and Vitaliy Chiley and Jonathan Frankle and Cody Blakeney and John Patrick Cunningham},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2024},
+url={https://openreview.net/forum?id=aloEru2qCG},
+note={Featured Certification}
+}
+```
 
 
 
