@@ -22,9 +22,17 @@ with LoRA.
 <p align="center">
 <img src="assets/fig1_learning.png" alt="Fig 1 - Learning" width="750">
 </p>
+Figure 1: LoRA performance scales by rank and underperforms full finetuning in code and math.
+(A) Starcoder-Python, (B) Magicoder-Evol-Instruct-110K, (C) OpenWebMath, (D) MetaMathQA. In (A)
+and (B) y-axis: HumanEval pass@1. In (C) and (D) y-axis: GSM8K strict match. In all panels, “base model”
+indicates Llama-2-7B without instruction finetuning. Note that 16 epochs are ≈1.16B and ≈1.6B tokens, for
+Magicoder-Evol-Instruct-110K and MetaMathQA, respectively.
 
 <p align="center">
 <img src="assets/fig2_forgetting.png" alt="Fig 2 - Forgetting" width="750">
+Figure 2: LoRA forgets less than full finetuning. In all panels, the y-axis shows the average of
+HellaSwag, ARC-Challenge and Winogrande for Llama-2-7B trained trained on: (A) StarCoder-Python (B)
+Magicoder-Evol-Instruct-110k (C) OpenWebMath (D) MetaMathQA.
 
 
 # Model Checkpoints and LoRA Adapters
